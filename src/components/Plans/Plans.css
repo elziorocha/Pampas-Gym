@@ -31,7 +31,7 @@
 
 .plans-header>span:nth-child(1),
 .plans-header>span:nth-child(3){
-    text-shadow: 0 0 #4f5258, -5px 4px black;
+    text-shadow: 0 0 #4f5258, -6px 4px black;
 }
 
 .plan {
@@ -59,13 +59,21 @@
 }
 
 .plan>:nth-child(2) {
-    font-size: 1rem;
+    font-size: 1.2rem;
     font-weight: bold;
+    text-shadow: -2px 1px black;
+    margin-bottom: -1rem;
+    margin-top: -1rem;
 }
 
 .plan>:nth-child(3) {
     font-size: 3rem;
     font-weight: bold;
+    text-shadow: -3px 2px black;
+}
+
+.plan>:nth-child(4) {
+    font-style: italic;
 }
 
 .plan>:nth-child(5) {
