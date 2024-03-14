@@ -13,9 +13,10 @@ export const plansData = [
     name: "BASIC PLAN",
     price: "25",
     features: [
-      "2 hours of excercises",
+      "3 hours of excercises",
       "Free consultaion to coaches",
       "Access to The Community",
+      "Closet",
     ],
   },
   {
@@ -33,8 +34,9 @@ export const plansData = [
     price: "30",
     features: [
       "5 hour of excercises",
-      "Free consultaion of Coaches",
-      "Accessto minibar",
+      "Pool Acess",
+      "Minibar Acess",
+      "Most Chosen Plan",
     ],
   },
   {
@@ -54,6 +56,7 @@ export const plansData = [
       "8 hours of excercises",
       "Consultation of Private Coach",
       "Free Fitness Merchandises",
+      "SPA acess",
     ],
   },
 ];
