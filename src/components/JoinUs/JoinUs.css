@@ -38,7 +38,7 @@
     background-color: gray;
     padding: 1rem 2rem;
     border-radius: 5px;
-    border: solid 1px rgb(36, 33, 33);
+    border: solid 2px rgb(36, 33, 33);
     box-shadow: 0 0 15px rgb(12, 12, 12);
 }
 
@@ -51,6 +51,7 @@
 
 ::placeholder {
     color: var(--lightgray);
+    background-color: transparent;
 }
 
 .btn-j {
@@ -58,4 +59,20 @@
     color: whitesmoke;
     border-radius: 10px;
     border: solid 1px black;
+}
+
+.btn-j:active {
+    animation: jump 0.2s ease;
+}
+
+@keyframes jump {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-5px);
+    }
+    100% {
+        transform: translateY(0);
+    }
 }

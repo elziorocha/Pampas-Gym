@@ -13,6 +13,7 @@ const JoinUs = () => {
         .sendForm('service_en9jtcs', 'template_kk2pt0o', form.current, 'GqMJOu1oIPoadHNTR')
         .then(() => {
                 console.log('SUCCESS!');
+                form.current.reset();
             },
             (error) => {
                 console.log('FAILED...', error.text);
@@ -37,11 +38,11 @@ const JoinUs = () => {
             <div className="right-j">
                 <form ref={form} className="email-container" onSubmit={sendEmail}>
                     <input type="email" name="user_email" placeholder="Enter your Email address" />
-                    <button className="btn btn-j">Join Now</button>
+                    <button className="btn btn-j" >Join Now</button>
                 </form>
             </div>
         </div>
     )
 }
 
-export default JoinUs 
+export default JoinUs;

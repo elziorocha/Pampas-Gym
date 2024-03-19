@@ -86,3 +86,7 @@
     width: 2rem;
     cursor: pointer;
 }
+
+.arrows>img:hover {
+    filter: sepia(1000%) saturate(10000000000%) hue-rotate(300deg);
+}

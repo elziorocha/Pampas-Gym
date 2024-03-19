@@ -63,6 +63,10 @@
     font-weight: bold;
 }
 
+.reasons-text {
+    text-shadow: 0 0 #4f5258, -4px 3px black;
+}
+
 .details-r {
     display: flex;
     flex-direction: column;

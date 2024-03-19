@@ -3,7 +3,7 @@
 }
 
 .Footer-container>hr {
-    border: solid 1px var(--lightgray);
+    border: solid 2px var(--lightgray);
 }
 
 .footer {
@@ -25,6 +25,10 @@
     width: 3rem;
     height: 3rem;
     cursor: pointer;
+}
+
+.social-links>img:hover {
+    filter: sepia(200%) saturate(10000%) hue-rotate(300deg);
 }
 
 .logo-f>img {
