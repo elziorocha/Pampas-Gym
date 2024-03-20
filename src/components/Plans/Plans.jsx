@@ -7,6 +7,8 @@ const Plans = () => {
     return (
         <div className="plans-container" id='plans'>
 
+            <div className="blur blur-p1"></div>
+            <div className="blur blur-p2"></div>
             <div className="plans-header" style={{gap: '2rem', marginRight: '3rem'}}>
                 <span className='stroke-text'>READY TO START</span>
                 <span>YOUR JOURNEY</span>

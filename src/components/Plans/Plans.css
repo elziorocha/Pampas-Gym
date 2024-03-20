@@ -114,3 +114,17 @@
     background-color: rgb(243, 108, 29);
     color: whitesmoke;
 }
+
+.blur-p1 {
+    width: 30rem;
+    height: 23rem;
+    top: 12rem;
+    left: 0;
+}
+
+.blur-p2 {
+    width: 30rem;
+    height: 23rem;
+    top: 12rem;
+    right: 0;
+}
