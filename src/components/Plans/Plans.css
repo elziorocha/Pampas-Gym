@@ -150,11 +150,19 @@
         width: 10rem;
         top: 52rem;
     }
+
+    .btn {
+        color: black;
+    }
 }
 
 @media screen and (min-width: 800px) and (max-width: 1024px) {
     .plans-header {
         font-size: 2.25rem;
         align-items: center;
+    }
+
+    .btn {
+        color: black;
     }
 }
