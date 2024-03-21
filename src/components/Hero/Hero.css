@@ -217,7 +217,7 @@
     left: 0;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 768px) {
     .hero {
         flex-direction: column;
     }
@@ -311,20 +311,9 @@
 
 }
 
-@media screen and (max-width: 1024px) {
-    .hero {
-        flex-direction: column;
-    }
-
-    .hero-blur {
-        width: 14rem;
-    }
-
+@media screen and (min-width: 800px) and (max-width: 1024px) {
     .the-best-ad {
-        margin-top: 0;
         font-size: x-large;
-        align-self: center;
-        transform: scale(0.8);
     }
 
     .hero-text {
@@ -424,11 +413,5 @@
 
     .blur-h {
         left: 19rem;
-    }
-}
-
-@media screen and (max-width: 600px) {
-    .blur-h {
-        width: 0;
     }
 }
