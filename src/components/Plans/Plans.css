@@ -128,3 +128,33 @@
     top: 12rem;
     right: 0;
 }
+
+@media screen and (max-width: 768px) {
+    .plans {
+        flex-direction: column;
+    }
+
+    .plans-header {
+        flex-direction: column;
+        font-size: xx-large;
+        align-items: center;
+        margin-right: 0;
+    }
+
+    .plans>:nth-child(2) {
+        transform: none;
+    }
+
+    .blur-p1,
+    .blur-p2 {
+        width: 10rem;
+        top: 52rem;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .plans-header {
+        font-size: 2.25rem;
+        align-items: center;
+    }
+}

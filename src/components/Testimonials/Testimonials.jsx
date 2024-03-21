@@ -12,7 +12,7 @@ const Testimonials = () => {
     const transition = {type: 'spring', duration: 3};
 
     return (
-        <div className="Testimonials">
+        <div className="Testimonials" id="testimonials">
             <div className="left-t">
                 <span>Testimonials</span>
                 <span className="stroke-text">What they</span>
@@ -24,7 +24,7 @@ const Testimonials = () => {
                     <span style={{ color: 'var(--orange)' }}>
                         {testimonialsData[selected].name}
                     </span>
-                    {" "} - {testimonialsData[selected].status}
+                    {" "}- {testimonialsData[selected].status}
                 </span>
             </div>
 
